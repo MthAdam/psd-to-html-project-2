@@ -258,10 +258,21 @@ nav .container .search-item .items{
 .shop-now .shopnow-item{
     position:relative;
     width:33%;
+    overflow: hidden;
 
 }
 .shop-now .shopnow-img img{
         display:block;  
+}
+.hassel {
+	background-color: #fff;
+	padding: 5px 68px;
+	color: #e05250;
+	position: absolute;
+	top: 33px;
+	left: -38px;
+	transform: rotate(-45deg);
+	font-weight: 500;
 }
 .shop-now .shopnow-item .shopnow-overlay {
         text-align: center;
